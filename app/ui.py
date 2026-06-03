@@ -549,6 +549,25 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
+# ---------------------------------------------------------------------------
+# Inline System Status (always visible regardless of sidebar state)
+# ---------------------------------------------------------------------------
+stats = _system_stats()
+with st.expander("⚡ System Status", expanded=True):
+    col1, col2, col3 = st.columns(3)
+    col1.metric("Documents Loaded", stats["documents"])
+    col2.metric("Chunks Indexed",   stats["chunks"])
+    col3.metric("Carriers Loaded",  stats["carriers"])
+
+    st.markdown("**Modules**")
+    for mod_name in ("call_intelligence", "brain"):
+        ok      = mod_name not in import_errors
+        symbol  = "🟢" if ok else "🔴"
+        label   = "Ready" if ok else "Error"
+        st.markdown(f"{symbol} &nbsp;`{mod_name}` &nbsp;— {label}", unsafe_allow_html=True)
+        if not ok:
+            st.caption(import_errors[mod_name])
+
 tab_ci, tab_brain = st.tabs(["Call Intelligence", "Meridian Brain"])
 
 
