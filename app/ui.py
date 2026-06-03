@@ -399,21 +399,16 @@ html, body, [class*="css"] { font-family: var(--body); -webkit-font-smoothing: a
     text-align: center; line-height: 1.75; padding-top: 6px;
 }
 
-footer, header { visibility: hidden; }
+/* Hide only Streamlit footer branding — keep header so sidebar toggle works */
+footer { visibility: hidden; }
+[data-testid="stToolbar"] { visibility: hidden; }
+[data-testid="stDecoration"] { display: none; }
+[data-testid="stStatusWidget"] { visibility: hidden; }
 
-/* Sidebar — always expanded and visible */
-[data-testid="stSidebar"] {
-    display: flex !important;
-    visibility: visible !important;
-    min-width: 250px !important;
-    max-width: 320px !important;
-}
-[data-testid="stSidebar"] > div:first-child {
-    padding-top: 1.5rem;
-}
-/* Keep the collapse/expand toggle visible so users can control it */
-[data-testid="collapsedControl"] { display: block !important; }
-button[kind="header"] { display: block !important; }
+/* Sidebar */
+[data-testid="stSidebar"] { background: var(--ink-2); border-right: 1px solid var(--line); }
+/* Sidebar expand button (shows when sidebar is collapsed) — must stay visible */
+[data-testid="stSidebarCollapsedControl"] { visibility: visible !important; display: flex !important; }
 </style>
 """, unsafe_allow_html=True)
 
