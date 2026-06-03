@@ -502,17 +502,17 @@ def render_sidebar():
             'letter-spacing:2.2px;font-weight:600;margin:18px 0 10px;">Modules</div>',
             unsafe_allow_html=True,
         )
-        for mod_name in ("call_intelligence", "brain"):
+        for mod_name, display_name in (("call_intelligence", "Call Intelligence Engine"), ("brain", "Knowledge Base")):
             ok  = mod_name not in import_errors
             dot = "dot-green" if ok else "dot-red"
-            txt = "Ready" if ok else "Error"
+            txt = "Operational" if ok else "Unavailable"
             st.markdown(
                 f'<div class="status-row"><span class="dot {dot}"></span>'
-                f'<strong>{mod_name}</strong> &nbsp;{txt}</div>',
+                f'<strong>{display_name}</strong> &nbsp;{txt}</div>',
                 unsafe_allow_html=True,
             )
             if not ok:
-                st.caption(import_errors[mod_name])
+                st.caption("Service temporarily unavailable.")
 
         # Public site link
         st.markdown(
@@ -525,7 +525,7 @@ def render_sidebar():
 
         st.markdown(
             '<div style="margin-top:14px;border-top:1px solid var(--line);padding-top:14px;">'
-            '<div class="sidebar-foot">Meridian AI Ops &middot; Internal Demo<br>'
+            '<div class="sidebar-foot">Meridian AI Ops &middot; Confidential<br>'
             'C1 Insurance Group &nbsp;+&nbsp; MyUtilities</div></div>',
             unsafe_allow_html=True,
         )
@@ -553,20 +553,20 @@ st.markdown(
 # Inline System Status (always visible regardless of sidebar state)
 # ---------------------------------------------------------------------------
 stats = _system_stats()
-with st.expander("⚡ System Status", expanded=True):
+with st.expander("System Status", expanded=True):
     col1, col2, col3 = st.columns(3)
     col1.metric("Documents Loaded", stats["documents"])
     col2.metric("Chunks Indexed",   stats["chunks"])
     col3.metric("Carriers Loaded",  stats["carriers"])
 
     st.markdown("**Modules**")
-    for mod_name in ("call_intelligence", "brain"):
+    for mod_name, display_name in (("call_intelligence", "Call Intelligence Engine"), ("brain", "Knowledge Base")):
         ok      = mod_name not in import_errors
         symbol  = "🟢" if ok else "🔴"
-        label   = "Ready" if ok else "Error"
-        st.markdown(f"{symbol} &nbsp;`{mod_name}` &nbsp;— {label}", unsafe_allow_html=True)
+        label   = "Operational" if ok else "Unavailable"
+        st.markdown(f"{symbol} &nbsp;{display_name} &nbsp;— {label}", unsafe_allow_html=True)
         if not ok:
-            st.caption(import_errors[mod_name])
+            st.caption("Service temporarily unavailable.")
 
 tab_ci, tab_brain = st.tabs(["Call Intelligence", "Meridian Brain"])
 
@@ -575,11 +575,11 @@ tab_ci, tab_brain = st.tabs(["Call Intelligence", "Meridian Brain"])
 # TAB 1: CALL INTELLIGENCE
 # ===========================================================================
 with tab_ci:
-    st.markdown('<div class="m-section-label">Incoming Call Transcript</div>', unsafe_allow_html=True)
+    st.markdown('<div class="m-section-label">Call Transcript</div>', unsafe_allow_html=True)
 
-    if st.button("Load Incoming Call", key="load_transcript"):
+    if st.button("Load Call Transcript", key="load_transcript"):
         if not TRANSCRIPT_PATH.exists():
-            st.error(f"Transcript not found at {TRANSCRIPT_PATH}")
+            st.error("Call transcript not found. Please check the configuration.")
         else:
             st.session_state["transcript_text"] = TRANSCRIPT_PATH.read_text(encoding="utf-8")
             st.session_state.pop("ci_result", None)
@@ -590,7 +590,7 @@ with tab_ci:
             unsafe_allow_html=True,
         )
 
-    st.markdown('<div class="m-section-label" style="margin-top:24px;">Pipeline Analysis</div>', unsafe_allow_html=True)
+    st.markdown('<div class="m-section-label" style="margin-top:24px;">Analysis Results</div>', unsafe_allow_html=True)
 
     analyze_disabled = "transcript_text" not in st.session_state
     if st.button("Analyze Call", key="analyze_call", disabled=analyze_disabled):
@@ -604,7 +604,7 @@ with tab_ci:
             except Exception:
                 _ci = None
 
-        with st.spinner("Running the Meridian pipeline ..."):
+        with st.spinner("Analyzing call..."):
             try:
                 if _ci is None:
                     raise ImportError("call_intelligence unavailable")
@@ -644,9 +644,9 @@ with tab_ci:
     if "ci_result" not in st.session_state:
         if "transcript_text" not in st.session_state:
             st.markdown(
-                '<div class="m-hint">Load a call transcript, then run '
-                '<strong>Analyze Call</strong> to extract client intelligence, '
-                'cross-sell signals, and integration events.</div>',
+                '<div class="m-hint">Select <strong>Load Call Transcript</strong> above, '
+                'then click <strong>Analyze Call</strong> to generate client intelligence, '
+                'revenue opportunities, and integration events.</div>',
                 unsafe_allow_html=True,
             )
     else:
@@ -656,7 +656,7 @@ with tab_ci:
         events   = r["events"]
 
         if r.get("demo_fallback"):
-            st.info("Demo-safe mode: using local fallback because LLM API is unavailable.")
+            st.info("Running in offline demo mode.")
 
         # 1. Client summary tiles
         st.markdown('<div class="m-section-label" style="margin-top:22px;">Client Summary</div>', unsafe_allow_html=True)
@@ -687,7 +687,7 @@ with tab_ci:
             dot, cls, tier = "dot-green", "urg-low", "Low"
         st.markdown(
             f'<div class="m-card-hero"><span class="dot {dot}"></span>'
-            f'<span class="urg-label {cls}">{tier} priority &middot; {score} / 10</span>'
+            f'<span class="urg-label {cls}">{tier} Priority &middot; {score}/10</span>'
             f'<div class="urg-reason">{reason}</div></div>',
             unsafe_allow_html=True,
         )
@@ -696,7 +696,7 @@ with tab_ci:
         # 3. Cross-sell flags
         flags = analysis.get("crosssell_flags", [])
         if flags:
-            st.markdown('<div class="m-section-label" style="margin-top:22px;">Cross-Sell Flags</div>', unsafe_allow_html=True)
+            st.markdown('<div class="m-section-label" style="margin-top:22px;">Revenue Opportunities</div>', unsafe_allow_html=True)
             for flag in flags:
                 if flag.get("direction") == "c1_to_myutils":
                     arrow, css = "C1 to MyUtilities", "m-alert-blue"
@@ -705,14 +705,14 @@ with tab_ci:
                 st.markdown(
                     f'<div class="m-alert {css}"><div class="alert-tag">{arrow}</div>'
                     f'<div class="alert-body">{flag.get("reason","")}</div>'
-                    f'<div class="alert-action">Suggested action: {flag.get("suggested_action","")}</div></div>',
+                    f'<div class="alert-action">Recommended Action: {flag.get("suggested_action","")}</div></div>',
                     unsafe_allow_html=True,
                 )
 
         # 4. Advisor action checklist
         actions = analysis.get("advisor_actions", [])
         if actions:
-            st.markdown('<div class="m-section-label" style="margin-top:22px;">Advisor Action Checklist</div>', unsafe_allow_html=True)
+            st.markdown('<div class="m-section-label" style="margin-top:22px;">Action Plan</div>', unsafe_allow_html=True)
             items = "".join(
                 f'<div class="m-check"><span class="m-check-tick">&#10003;</span><span>{step}</span></div>'
                 for step in actions
@@ -740,10 +740,10 @@ with tab_ci:
 
         # 6. Integration outbox
         if events:
-            st.markdown('<div class="m-section-label" style="margin-top:22px;">Integration Outbox</div>', unsafe_allow_html=True)
+            st.markdown('<div class="m-section-label" style="margin-top:22px;">Automated Actions</div>', unsafe_allow_html=True)
             st.markdown(
                 '<div style="font-size:.82rem;color:var(--muted);margin-bottom:16px;">'
-                'These actions are queued and ready. Nothing has been sent yet.</div>',
+                'The following actions are queued and ready. No data has been transmitted.</div>',
                 unsafe_allow_html=True,
             )
 
@@ -751,7 +751,7 @@ with tab_ci:
             EVENT_META = {
                 "CREATE_CRM_LEAD": {
                     "icon": "🏢",
-                    "title": "New lead created in CRM",
+                    "title": "CRM Lead Created",
                     "desc": lambda p: (
                         f"<strong>{p.get('firstname','')} {p.get('lastname','')}</strong> added to HubSpot "
                         f"as a <em>{p.get('deal_stage','')}</em> in the "
@@ -761,7 +761,7 @@ with tab_ci:
                 },
                 "CREATE_ADVISOR_TASK": {
                     "icon": "📋",
-                    "title": "Task assigned to advisor",
+                    "title": "Advisor Task Created",
                     "desc": lambda p: (
                         f"Priority: <strong>{p.get('priority','')}</strong>. "
                         f"Due: <strong>{p.get('due_date','')}</strong>. "
@@ -770,7 +770,7 @@ with tab_ci:
                 },
                 "SEND_EMAIL": {
                     "icon": "✉",
-                    "title": "Follow-up email ready to send",
+                    "title": "Follow-up Email Ready",
                     "desc": lambda p: (
                         f"To <strong>{p.get('to_name','')}</strong> "
                         f"at <strong>{p.get('to_email','')}</strong>. "
@@ -779,7 +779,7 @@ with tab_ci:
                 },
                 "SEND_SMS": {
                     "icon": "💬",
-                    "title": "Text message queued",
+                    "title": "SMS Queued",
                     "desc": lambda p: (
                         f"To <strong>{p.get('to_phone','')}</strong>. "
                         f"Message: <em>{p.get('body','')[:90]}{'...' if len(p.get('body','')) > 90 else ''}</em>"
@@ -787,7 +787,7 @@ with tab_ci:
                 },
                 "MYUTILITIES_HANDOFF": {
                     "icon": "⚡",
-                    "title": "MyUtilities notified",
+                    "title": "MyUtilities Referral Sent",
                     "desc": lambda p: (
                         f"Referral sent for <strong>{p.get('client_name','')}</strong> "
                         f"at <strong>{p.get('property_address','')}</strong>. "
@@ -823,7 +823,7 @@ with tab_ci:
                     f'</div>',
                     unsafe_allow_html=True,
                 )
-                with st.expander("Technical details"):
+                with st.expander("View Payload"):
                     st.code(json.dumps(payload, indent=2, default=str), language="json")
 
 
@@ -857,7 +857,7 @@ with tab_brain:
     st.markdown('<div class="m-section-label" style="margin-top:18px;">Ask Meridian</div>', unsafe_allow_html=True)
     st.text_input(
         label="Question",
-        placeholder="Type a question, or choose an example above",
+        placeholder="Ask about carriers, coverage rules, or cross-sell triggers...",
         key="brain_query",
         label_visibility="collapsed",
     )
@@ -865,7 +865,7 @@ with tab_brain:
 
     if st.button("Ask Meridian", key="ask_brain"):
         if not query.strip():
-            st.warning("Enter a question first, or pick an example.")
+            st.warning("Please enter a question or select one from the examples above.")
         else:
             _brain = brain_mod
             if _brain is None:
@@ -877,14 +877,14 @@ with tab_brain:
                     _brain = None
 
             if _brain is None:
-                st.error("Knowledge base unavailable — dependencies may still be installing. Try again in 30 seconds.")
+                st.error("The knowledge base is initializing. Please wait a moment and try again.")
             else:
-                with st.spinner("Searching the knowledge base ..."):
+                with st.spinner("Searching knowledge base..."):
                     try:
                         st.session_state["brain_result"] = _brain.query_brain(query.strip())
                     except Exception as e:
                         st.session_state.pop("brain_result", None)
-                        st.error(f"Knowledge query failed: {e}")
+                        st.error("Unable to retrieve an answer. Please try again.")
 
     if "brain_result" in st.session_state:
         res        = st.session_state["brain_result"]
@@ -896,15 +896,15 @@ with tab_brain:
 
         sources = res.get("sources", [])
         if sources:
-            st.markdown('<div class="m-section-label" style="margin-top:20px;">Sources</div>', unsafe_allow_html=True)
+            st.markdown('<div class="m-section-label" style="margin-top:20px;">Knowledge Sources</div>', unsafe_allow_html=True)
             pills = " ".join(f'<span class="m-pill">{s}</span>' for s in sources)
             st.markdown(f'<div style="margin-bottom:14px;">{pills}</div>', unsafe_allow_html=True)
 
         chunks = res.get("chunks", [])
         if chunks:
-            with st.expander("Retrieved context chunks"):
+            with st.expander("View Source Passages"):
                 for i, chunk in enumerate(chunks, 1):
                     st.markdown(
-                        f'<div class="m-chunk"><div class="m-chunk-head">Chunk {i}</div>{chunk}</div>',
+                        f'<div class="m-chunk"><div class="m-chunk-head">Passage {i}</div>{chunk}</div>',
                         unsafe_allow_html=True,
                     )
