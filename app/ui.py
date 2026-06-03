@@ -400,6 +400,10 @@ html, body, [class*="css"] { font-family: var(--body); -webkit-font-smoothing: a
 }
 
 #MainMenu, footer, header { visibility: hidden; }
+
+/* Force sidebar visible on Streamlit Cloud */
+[data-testid="stSidebar"] { display: block !important; }
+section[data-testid="stSidebar"] > div { min-width: 240px; }
 </style>
 """, unsafe_allow_html=True)
 
@@ -564,41 +568,54 @@ with tab_ci:
 
     st.markdown('<div class="m-section-label" style="margin-top:24px;">Pipeline Analysis</div>', unsafe_allow_html=True)
 
-    analyze_disabled = ("transcript_text" not in st.session_state) or (ci_mod is None)
+    analyze_disabled = "transcript_text" not in st.session_state
     if st.button("Analyze Call", key="analyze_call", disabled=analyze_disabled):
-        if ci_mod is None:
-            st.error("The call_intelligence module failed to load.")
-        else:
-            with st.spinner("Running the Meridian pipeline ..."):
-                try:
-                    transcript   = st.session_state["transcript_text"]
-                    analysis     = ci_mod.analyze_call(transcript)
-                    contact      = ci_mod.resolve_contact(analysis.get("client_name", ""))
-                    analysis     = ci_mod.scrub_invented_emails(analysis, contact)
-                    events       = ci_mod.generate_outbox_events(analysis, contact)
-                    ci_mod.log_audit(analysis, events)
-                    demo_fallback = analysis.pop("_demo_fallback", False)
-                    st.session_state["ci_result"] = {
-                        "analysis":      analysis,
-                        "contact":       contact,
-                        "events":        events,
-                        "demo_fallback": demo_fallback,
-                    }
-                except Exception:
-                    # Surface nothing to the audience; load demo data directly
-                    import copy
-                    demo     = copy.deepcopy(ci_mod.DEMO_ANALYSIS)
-                    demo.pop("_demo_fallback", None)
-                    contact  = ci_mod.resolve_contact(demo["client_name"])
-                    demo     = ci_mod.scrub_invented_emails(demo, contact)
-                    events   = ci_mod.generate_outbox_events(demo, contact)
-                    ci_mod.log_audit(demo, events)
-                    st.session_state["ci_result"] = {
-                        "analysis":      demo,
-                        "contact":       contact,
-                        "events":        events,
-                        "demo_fallback": True,
-                    }
+        # resolve module — re-import inline if cached import failed at startup
+        _ci = ci_mod
+        if _ci is None:
+            try:
+                import importlib
+                sys.path.insert(0, str(BASE_DIR))
+                _ci = importlib.import_module("call_intelligence")
+            except Exception:
+                _ci = None
+
+        with st.spinner("Running the Meridian pipeline ..."):
+            try:
+                if _ci is None:
+                    raise ImportError("call_intelligence unavailable")
+                transcript    = st.session_state["transcript_text"]
+                analysis      = _ci.analyze_call(transcript)
+                contact       = _ci.resolve_contact(analysis.get("client_name", ""))
+                analysis      = _ci.scrub_invented_emails(analysis, contact)
+                events        = _ci.generate_outbox_events(analysis, contact)
+                _ci.log_audit(analysis, events)
+                demo_fallback = analysis.pop("_demo_fallback", False)
+                st.session_state["ci_result"] = {
+                    "analysis":      analysis,
+                    "contact":       contact,
+                    "events":        events,
+                    "demo_fallback": demo_fallback,
+                }
+            except Exception:
+                import copy
+                # Always fall back to hardcoded demo — never show a blank screen
+                if _ci is None:
+                    sys.path.insert(0, str(BASE_DIR))
+                    import call_intelligence as _ci_fallback
+                    _ci = _ci_fallback
+                demo    = copy.deepcopy(_ci.DEMO_ANALYSIS)
+                demo.pop("_demo_fallback", None)
+                contact = _ci.resolve_contact(demo["client_name"])
+                demo    = _ci.scrub_invented_emails(demo, contact)
+                events  = _ci.generate_outbox_events(demo, contact)
+                _ci.log_audit(demo, events)
+                st.session_state["ci_result"] = {
+                    "analysis":      demo,
+                    "contact":       contact,
+                    "events":        events,
+                    "demo_fallback": True,
+                }
 
     if "ci_result" not in st.session_state:
         if "transcript_text" not in st.session_state:
@@ -822,18 +839,28 @@ with tab_brain:
     )
     query = st.session_state.get("brain_query", "")
 
-    if st.button("Ask Meridian", key="ask_brain", disabled=(brain_mod is None)):
-        if brain_mod is None:
-            st.error("The brain module failed to load.")
-        elif not query.strip():
+    if st.button("Ask Meridian", key="ask_brain"):
+        if not query.strip():
             st.warning("Enter a question first, or pick an example.")
         else:
-            with st.spinner("Searching the knowledge base ..."):
+            _brain = brain_mod
+            if _brain is None:
                 try:
-                    st.session_state["brain_result"] = brain_mod.query_brain(query.strip())
-                except Exception as e:
-                    st.session_state.pop("brain_result", None)
-                    st.error(f"Knowledge query failed: {e}")
+                    import importlib
+                    sys.path.insert(0, str(BASE_DIR))
+                    _brain = importlib.import_module("brain")
+                except Exception:
+                    _brain = None
+
+            if _brain is None:
+                st.error("Knowledge base unavailable — dependencies may still be installing. Try again in 30 seconds.")
+            else:
+                with st.spinner("Searching the knowledge base ..."):
+                    try:
+                        st.session_state["brain_result"] = _brain.query_brain(query.strip())
+                    except Exception as e:
+                        st.session_state.pop("brain_result", None)
+                        st.error(f"Knowledge query failed: {e}")
 
     if "brain_result" in st.session_state:
         res        = st.session_state["brain_result"]
