@@ -585,11 +585,26 @@ tab_ci, tab_brain = st.tabs(["Call Intelligence", "Meridian Brain"])
 with tab_ci:
     st.markdown('<div class="m-section-label">Call Transcript</div>', unsafe_allow_html=True)
 
+    TRANSCRIPTS = {
+        "Sarah Mitchell — New Homebuyer, Plano":
+            BASE_DIR / "incoming_calls" / "sarah_homebuyer.txt",
+        "Valerie — Active Claim + Renewal, Travelers":
+            BASE_DIR / "incoming_calls" / "valerie_renewal_claim.txt",
+    }
+
+    selected_call = st.selectbox(
+        label="Select call",
+        options=list(TRANSCRIPTS.keys()),
+        key="transcript_select",
+        label_visibility="collapsed",
+    )
+
     if st.button("Load Call Transcript", key="load_transcript"):
-        if not TRANSCRIPT_PATH.exists():
+        path = TRANSCRIPTS[selected_call]
+        if not path.exists():
             st.error("Call transcript not found. Please check the configuration.")
         else:
-            st.session_state["transcript_text"] = TRANSCRIPT_PATH.read_text(encoding="utf-8")
+            st.session_state["transcript_text"] = path.read_text(encoding="utf-8")
             st.session_state.pop("ci_result", None)
 
     if "transcript_text" in st.session_state:

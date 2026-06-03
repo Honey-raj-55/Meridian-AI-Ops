@@ -1,0 +1,139 @@
+INCOMING CALL TRANSCRIPT
+Date: 2026-06-03
+Time: (not recorded)
+Duration: 5:38
+Caller ID: (214) 212-4983
+Assigned Advisor: Jackson Ankeny, Account Executive
+Source: Outbound follow-up call
+
+================================================================================
+
+0:00 | Voicemail (Valerie)
+Hi, this is Valerie. I'm sorry, I missed your call. If you'd like a call back,
+just leave me a message. I'll call you as soon as I can. Thanks so much. Bye.
+
+0:11 | Jackson
+Hey Valerie, this is Jackson with C1 Insurance, again. Hope you're doing well.
+Just want to follow up to my text this morning. Forgot to mention that we do not
+have a contractor in house that we recommend. I know a couple people if you want
+somebody, but there is not anybody officially backed by C1 Insurance. So just
+wanted to let you know that.
+
+0:37 | Valerie
+Hey, it's Valerie. Sorry about that.
+
+0:39 | Jackson
+Yeah, no worries. How are you doing, Valerie?
+
+0:42 | Valerie
+Good. I was on the other line, yeah, but I got your info on the deductible —
+that's fine. I knew we were in that general area, yes.
+
+0:53 | Jackson
+Of course. Yep. So that was one of the reasons I was calling, just to make sure
+you didn't have any questions on that. I also wanted to mention that C1 does not
+have a contractor that we officially recommend. I guess I personally know a couple
+of people. I would say I haven't used them personally yet — it's just people that
+I know, members of my gym or just people I know personally. So if you need a
+contractor I could definitely help you out there, but just wanted to make that
+known that it's not officially C1 backed. But if you already have someone in
+mind, that's perfect.
+
+1:37 | Valerie
+Okay. I know we're shopping around since all of this just unfolded. But if you
+have anybody, send me their info and I may call them as well, just to kind of
+talk to different people.
+
+1:51 | Jackson
+Okay, yeah. Happy to do that for sure. Did just want to clarify — the person I'm
+thinking of, his name is Chris Bell. He's an awesome dude. But I do want to
+mention I haven't used him personally, so I can't speak to the quality of work.
+All I can speak to is that he's an amazing guy. I go to church with him and he's
+part of my gym as well. So that's how I know him, but can't speak to the work.
+So happy to send you his info, and if that works, great. If not, no big deal.
+Happy to shoot you his information.
+
+2:30 | Valerie
+A general contractor?
+
+2:32 | Jackson
+Yes, ma'am. Okay, yeah.
+
+2:35 | Valerie
+Well, thanks. I'd appreciate it. I don't know what our timeline is going to be
+on this. One more unexpected thing you didn't want to deal with in the middle of
+summer, but it's got to be done, right? All right, well thanks for the callback,
+I really appreciate it.
+
+2:50 | Jackson
+Yes, ma'am. And I did just want to mention one more thing while I have you on
+the phone. It does look like your insurance is coming up for renewal in about two
+months. Obviously with — I was thinking about maybe putting in a claim — it kind
+of does murky the waters just a little bit. The only reason I say that is because
+while you're going through a claim process, we always recommend staying with that
+company just to ensure that your policy, that your claim, is paid out and
+everything is seen through to the end. They are required, even if you change
+insurance carriers, to still see that claim through. It just becomes a lot harder
+if you were to change carriers in the middle of a claim. That's not to say we can't
+change your carrier after the fact, we definitely can, but just wanted to remind
+you of that.
+
+3:51 | Jackson (continued)
+All that to say, we are still going to remarket your account — your home and your
+auto — and just see where the market is at, so that we have that information
+available moving forward. Those renewals aren't coming up for another two months,
+but this is around the time that we start to remarket the account and look into
+everything for you, so that in a month or two we have all the information
+available.
+
+4:33 | Valerie
+When does that expire? Is it mid August or end of August?
+
+4:38 | Jackson
+So it's actually the beginning of August. I have it at August 7th — for both the
+home and the auto.
+
+4:44 | Valerie
+Okay.
+
+4:46 | Jackson
+But yeah, it will probably be a month before Travelers even gives us your renewal
+information, but we always like to try to get ahead of things and start quoting
+everything out, so that when we do get that renewal premium we have all the
+information available to give you.
+
+5:06 | Valerie
+I appreciate it. I'll pass that on to Tom, and it looks like we'll probably stay
+the course because I'm not sure how much we could rush the job.
+
+5:14 | Jackson
+For sure. Yeah, absolutely.
+
+5:19 | Valerie
+I'll pass that on to him and we'll talk about it. I appreciate it. Thanks for
+the follow-up call.
+
+5:24 | Jackson
+Yes, ma'am, of course. Please let me know if there's anything else I can do to
+help — always happy to do whatever I can.
+
+5:34 | Valerie
+All righty. Thanks again.
+
+5:36 | Jackson
+Yes, ma'am, of course. Have a great rest of your day.
+
+5:38 | Valerie
+You too. Bye bye.
+
+================================================================================
+ADVISOR NOTES (pre-loaded context):
+- Client: Valerie (last name not captured) + Tom (husband/decision-maker)
+- Current carrier: Travelers (home + auto)
+- Renewal date: August 7, 2026 (both home and auto)
+- Active situation: claim being considered (likely storm/hail — contractor discussion)
+- Deductible: discussed and accepted by client ("I knew we were in that general area")
+- Contractor referral: Chris Bell (personal contact of Jackson, not officially C1-backed)
+- Client disposition: staying the course on current carrier pending claim outcome
+- Decision-maker note: Valerie defers to Tom on insurance decisions
+- Urgency signal: active claim consideration + 2-month renewal window
