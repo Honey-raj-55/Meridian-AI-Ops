@@ -29,6 +29,15 @@ import google.generativeai as genai
 
 load_dotenv()
 
+# Pull keys from Streamlit secrets when running on Streamlit Cloud
+try:
+    import streamlit as st
+    for _k in ("GEMINI_API_KEY", "ANTHROPIC_API_KEY", "USE_LLM"):
+        if _k in st.secrets and not os.getenv(_k):
+            os.environ[_k] = st.secrets[_k]
+except Exception:
+    pass
+
 BASE_DIR     = pathlib.Path(__file__).parent
 CONTACTS_CSV = BASE_DIR / "data" / "contacts.csv"
 AUDIT_DB     = BASE_DIR / "audit.db"
