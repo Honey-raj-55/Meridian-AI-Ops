@@ -681,6 +681,22 @@ with tab_ci:
         if r.get("demo_fallback"):
             st.info("Running in offline demo mode.")
 
+        # ── Download PDF report ───────────────────────────────────────
+        try:
+            sys.path.insert(0, str(BASE_DIR))
+            from report_generator import generate_pdf as _gen_pdf
+            _pdf_bytes = _gen_pdf(analysis, contact, events)
+            client_slug = (analysis.get("client_name") or "report").replace(" ", "_").replace("&", "and").lower()
+            st.download_button(
+                label="Download Report (PDF)",
+                data=_pdf_bytes,
+                file_name=f"meridian_call_report_{client_slug}.pdf",
+                mime="application/pdf",
+                key="download_pdf",
+            )
+        except Exception as _pdf_err:
+            st.caption(f"PDF generation unavailable: {_pdf_err}")
+
         # 1. Client summary tiles
         st.markdown('<div class="m-section-label" style="margin-top:22px;">Client Summary</div>', unsafe_allow_html=True)
         cols = st.columns(4)
