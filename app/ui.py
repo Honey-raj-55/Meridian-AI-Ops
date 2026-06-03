@@ -399,11 +399,21 @@ html, body, [class*="css"] { font-family: var(--body); -webkit-font-smoothing: a
     text-align: center; line-height: 1.75; padding-top: 6px;
 }
 
-#MainMenu, footer, header { visibility: hidden; }
+footer, header { visibility: hidden; }
 
-/* Force sidebar visible on Streamlit Cloud */
-[data-testid="stSidebar"] { display: block !important; }
-section[data-testid="stSidebar"] > div { min-width: 240px; }
+/* Sidebar — always expanded and visible */
+[data-testid="stSidebar"] {
+    display: flex !important;
+    visibility: visible !important;
+    min-width: 250px !important;
+    max-width: 320px !important;
+}
+[data-testid="stSidebar"] > div:first-child {
+    padding-top: 1.5rem;
+}
+/* Keep the collapse/expand toggle visible so users can control it */
+[data-testid="collapsedControl"] { display: block !important; }
+button[kind="header"] { display: block !important; }
 </style>
 """, unsafe_allow_html=True)
 
