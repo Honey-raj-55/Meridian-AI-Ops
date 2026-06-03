@@ -1,0 +1,166 @@
+TRAVELERS INSURANCE - C1 INSURANCE GROUP CARRIER GUIDE
+Last updated: June 2026
+Carrier contact: Travelers DFW Agency Team | 972-701-4400 | underwriting turnaround 24-72 hrs (complex risks 5 business days)
+
+================================================================================
+COVERAGE TIERS
+================================================================================
+
+TRAVELERS BASIC (Equivalent to HO3 bare minimum)
+- Dwelling: RCV with 25% extended replacement cost
+- Other structures: 10% of dwelling
+- Personal property: ACV
+- Loss of use: 20% of dwelling, 12 months
+- Liability: $100,000
+- Medical payments: $1,000
+- Deductible: 1% named windstorm/hail; $1,000 all-other-peril
+- Water backup: NOT included (available add-on $40-$80/yr)
+- Roof: ACV on roofs 13+ years
+- Suitable for: Investment/rental homes, price-only buyers; C1 rarely leads with this tier
+
+TRAVELERS STANDARD (Most common C1 placement)
+- Dwelling: RCV with 30% extended replacement cost
+- Other structures: 10% of dwelling
+- Personal property: RCV, $2,500 sublimit on jewelry
+- Loss of use: 40% of dwelling, 18 months
+- Liability: $300,000
+- Medical payments: $5,000
+- Deductible: 1% named windstorm/hail; $1,000 all-other-peril
+- Water backup: $25,000 (included - stronger than Safeco Standard)
+- Identity fraud: $25,000 (included)
+- Roof: RCV roofs 0-16 years; ACV schedule 17-22 years; ineligible 23+
+- Green rebuild: Travelers includes up to $25,000 for energy-efficient upgrades after a covered loss (unique feature)
+- Best for: Mid-tier Dallas suburbs, clients with one prior claim, homes $300K-$700K
+
+TRAVELERS PREMIER (IntelliDrive Home package)
+- Dwelling: Guaranteed Replacement Cost - true GRC with no cap, confirmed via Xactimate estimate at bind
+- Other structures: 20% of dwelling
+- Personal property: RCV, scheduled jewelry/art/collectibles available with no sublimit
+- Loss of use: 60% of dwelling, 24 months (strongest in DFW market)
+- Liability: $500,000; umbrella integration up to $10M through Travelers Umbrella
+- Medical payments: $10,000
+- Deductible: 0.5% named windstorm/hail option; $500 all-other-peril option
+- Water backup: $50,000
+- Identity fraud: $50,000 with credit monitoring
+- Equipment breakdown: $100,000 (best in class - covers HVAC, appliances, smart home systems)
+- Ordinance/law: 100% of dwelling (critical for Dallas homes pre-2000)
+- Valuable items floater: Included up to $10,000 jewelry/watches, $5,000 fine art
+- Best for: Homes $500K+, custom/luxury builds, clients wanting Travelers umbrella continuity
+
+================================================================================
+TARGET CLIENT PROFILE - TRAVELERS SWEET SPOT
+================================================================================
+
+Ideal Travelers client at C1:
+- Home value: $350,000 - $1,500,000 (Travelers' upper limit is higher than Safeco)
+- Roof age: 0-16 years for Standard; 0-20 years for Premier with metal roof
+- Credit score: 660+ (Travelers' scoring model is slightly more lenient than Safeco on mid-range scores)
+- Claims history: Up to 1 paid claim under $40,000 in past 5 years on Standard; underwriting review on 2 claims
+- Occupation: Executive, attorney, physician, small business owner (qualifies for IntelliDrive Home Premier eligibility)
+- Auto bundle: Travelers' own auto policy gets 12-15% multi-policy discount; NOT as deep as Safeco/Liberty bundle but cleaner for umbrella stacking
+- Construction: Frame, brick-veneer, full brick, ICF (insulated concrete form) - Travelers accepts more construction types than Safeco
+- Pool/amenity: Travelers is more accommodating on pools, sports courts, guest houses with proper liability limits
+
+Dallas-specific notes:
+- ZIP 75205, 75209, 75219 (Highland Park, University Park, Bluffview): Travelers' preferred territory - lowest loss ratio, highest GRC placement rate
+- ZIP 75230, 75225, 75248 (Preston Hollow, Far North Dallas): Strong Travelers territory; Premier tier common here
+- Lakewood/Junius Heights (ZIP 75214): Travelers accepts the older stock with ordinance/law endorsement; Safeco often declines these
+- Inner Oak Cliff, Bishop Arts (ZIP 75208, 75211): Travelers will write Standard with inspection; verify construction year
+- Lake Ray Hubbard area (Rowlett, Rockwall): Travelers comfortable here; some wind exposure but manageable
+
+================================================================================
+DALLAS HAIL AND ROOF-AGE UNDERWRITING NOTES
+================================================================================
+
+Travelers implemented a new roof evaluation program in January 2025 called "RoofVerify DFW."
+All new business submissions in Dallas, Tarrant, Collin, and Denton counties now trigger automatic
+aerial inspection within 72 hours of bind. If roof condition is unsatisfactory, Travelers issues
+a 30-day corrective notice, not immediate cancellation (more grace than Safeco).
+
+Roof age rules (as of Q1 2026):
+- 0-8 years: Full RCV, no photos needed, fast-track underwriting
+- 9-16 years: RCV on Standard/Premier; require photos or RoofVerify report if home value $400K+
+- 17-22 years: ACV only. Policy must include written acknowledgment from insured. Travelers issues annual rate adjustment on these policies.
+- 23+ years: Ineligible for new business. Exception: metal standing-seam up to 35 years - call underwriting directly.
+- Class 4 impact-resistant shingles (any age): Qualifies for 8% discount AND may push the age threshold 3 years forward (e.g., 19-year Class 4 roof treated as 16-year standard)
+- Tile roofs (clay/concrete): Travelers writes these up to 25 years with inspection; common in North Dallas/Frisco new construction
+
+Hail deductible options (unique to Travelers DFW):
+- Standard: 1% of Coverage A
+- Buy-down option: For an additional $180-$340/yr, reduce hail deductible from 1% to $2,500 flat (very popular with clients who have $500K+ homes)
+- Enhanced: 2% deductible in exchange for 7% premium reduction (offer to budget-conscious buyers in Zone C/D)
+
+================================================================================
+DISCOUNTS - TRAVELERS
+================================================================================
+
+Multi-policy (home + Travelers auto): 12-15% depending on auto premium
+New construction (built within 5 years): 10% off
+Claims-free 3 years: 5% off
+Claims-free 5 years: 10% off
+Claims-free 10 years: 16% off
+Home alarm (monitored, UL-listed): 5% off; certificate required at bind
+Smart home water shutoff (Flo by Moen, Phyn): 7% off - best smart home discount in DFW market; requires installation confirmation
+Class 4 impact-resistant roof: 8% off (manufacturer cert required)
+Green home certification (LEED, Energy Star): 5% off
+Age 55+ / retired: 5% off
+Advance quote (8+ days before expiration): 3% off
+Loyalty year 3+: 4% off; year 5+: 7% off; year 10+: 10% off (Travelers' loyalty schedule is better than Safeco long-term)
+Auto-pay: 2% off
+Paperless: 1% off
+IntelliDrive Home enrollment (smart home monitoring): Additional 3% off on Premier tier
+
+Maximum stacking: Travelers caps at 45% of base premium (slightly more generous cap than Safeco's 40%).
+
+================================================================================
+COMMISSION RATES - C1 INSURANCE GROUP
+================================================================================
+
+New business: 15% of written premium
+Renewal years 1-3: 12% of written premium
+Renewal year 4+: 12% flat
+Bonus/contingency: C1 qualifies for Travelers Agency Plus program at current book size. Loss ratio must stay below 60% for contingency (paid in Q1 following year). 2025 contingency payout was 1.8% of prior-year earned premium.
+Chargeback: Full clawback within 60 days. Pro-rata days 61-150. (Travelers' chargeback window is shorter than Safeco - advantage for C1.)
+Policy fee: C1 charges $75 origination fee on Travelers placements, same as all carriers.
+
+================================================================================
+WHAT TO AVOID - TRAVELERS
+================================================================================
+
+Do NOT submit to Travelers if any of the following apply:
+- Roof age 23+ years (any standard shingle; call for metal exception)
+- Three or more paid claims in past 5 years
+- Any single water damage claim exceeding $50,000 in past 3 years (Travelers DFW has flagged water claims as a priority risk)
+- Dog breed restrictions: Pit bull, Rottweiler, Akita, Wolf hybrid, Presa Canario (same core list as Safeco; Travelers also excludes Cane Corso and Dogo Argentino)
+- Trampoline without full net enclosure AND signed exclusion (stricter than Safeco - Travelers requires BOTH)
+- Vacant home (30+ days unoccupied): Requires Travelers Vacancy Permit endorsement; standard policy excludes vandalism/water if vacant
+- Active mold claim or history of mold remediation in past 5 years: Underwriting will decline
+- Knob-and-tube wiring: Hard decline
+- Federal Pacific or Zinsco electrical panels: Decline (common in Dallas homes 1960-1985; ask about panel type)
+- Active litigation involving the property
+- Homes used for commercial cannabis cultivation or storage
+- Polybutylene plumbing: Travelers will write with a plumbing exclusion endorsement (unlike Safeco which hard-declines); disclose to client
+
+================================================================================
+COMPETITIVE POSITIONING
+================================================================================
+
+Travelers wins against Safeco when:
+- Home value $500K+ (Travelers' GRC terms and higher liability limits are better)
+- Client needs umbrella continuity (Travelers umbrella up to $10M on one platform)
+- Roof is 15-20 years old (Travelers' more generous age threshold)
+- Inner Dallas older homes needing Ordinance/Law 100% (Travelers' 100% O&L vs Safeco's 50% on Premier)
+- Client has one prior significant claim (Travelers underwriting is more flexible)
+- Client has pool, guest house, or other amenities (Travelers liability packaging is stronger)
+- Client cares about smart home water shutoff discount (Travelers' 7% is best in class)
+
+Travelers loses to Safeco when:
+- Client wants deepest home+auto bundle discount (Safeco/Liberty Mutual 18-22% vs Travelers 12-15%)
+- Home is in north Collin County new construction (Safeco's base rates are lower in that zone)
+- Client qualifies for Class 4 roof discount (Safeco's 12% beats Travelers' 8%)
+- Speed matters - Safeco binds faster for clean risks (24 hrs vs Travelers 24-72 hrs)
+
+Travelers wins against Progressive/Kemper when:
+- Client wants carrier-direct claims service with local DFW adjusters (Travelers has a DFW claims office at 5080 Spectrum Dr, Addison)
+- Premium home where A-rated carrier matters for lender requirements
+- Jumbo mortgage lenders (over $1M) typically require AM Best A+ carrier - Travelers qualifies, Progressive may not satisfy some lenders

@@ -1,0 +1,113 @@
+INCOMING CALL TRANSCRIPT
+Date: 2026-06-03
+Time: 10:14 AM CT
+Duration: 1:47
+Caller ID: (214) 883-7042
+Assigned Advisor: Marcus Webb
+Source: Realtor referral (Diane Kowalski, Keller Williams Plano)
+
+================================================================================
+
+MARCUS: Thank you for calling C1 Insurance Group, this is Marcus, how can I help you?
+
+SARAH: Hi Marcus, um, my name is Sarah Mitchell. I was given your number by my realtor,
+Diane Kowalski? She said you guys could help me get set up fast, I'm kind of in a
+crunch right now.
+
+MARCUS: Absolutely, yes, Diane sends us a lot of great clients. What's going on, what
+do you need?
+
+SARAH: So I'm closing on a house next Friday - the 12th - and I just realized, like,
+I need to have proof of homeowners insurance before I can close. And I honestly
+haven't even started looking. My lender called me yesterday and I kind of panicked.
+
+MARCUS: Okay, no worries at all, that's exactly what we're here for and next Friday
+is totally doable. What's the address of the property?
+
+SARAH: It's 4817 Thornbury Drive in Plano. Um, zip is 75093.
+
+MARCUS: Perfect, that's a great area. And do you know the purchase price?
+
+SARAH: It's $448,000. It's a - it's a four bedroom, built in 2014 I think? The
+inspector said the roof was replaced in 2019 so it should be pretty recent.
+
+MARCUS: Oh that is great news, a 2019 roof is going to get you the best rates. Do
+you happen to know if it was regular architectural shingles or did the inspector
+mention anything about impact-resistant shingles?
+
+SARAH: Um, I - I don't remember exactly. I can look at the report. He said something
+about it being in good shape.
+
+MARCUS: No worries, we can look that up. If it turns out to be Class 4 impact-resistant
+it could save you another 10 or 12 percent, so worth checking. Who's your lender?
+
+SARAH: It's Rocket Mortgage.
+
+MARCUS: Got it, okay. And do you have any homeowners insurance claims in the past
+five years, like water damage, hail, anything like that?
+
+SARAH: No, nothing. I've been renting up until now so this is my first house.
+
+MARCUS: That actually helps you a lot - first-time homebuyer, no claims history,
+newer roof. Do you have any dogs?
+
+SARAH: I have a golden retriever. [laughs] Is that a problem?
+
+MARCUS: Not at all, goldens are totally fine. Okay, so last question and then I
+can pull quotes for you - do you have auto insurance right now and who's it with?
+
+SARAH: Yeah, I'm with State Farm for my car. I've been with them forever but I
+know you guys don't do State Farm so I figured I'd have to keep them separate?
+
+MARCUS: So you're right that we don't write State Farm, but what I can do is run
+your home policy through Safeco or Travelers and also run you an auto quote at the
+same time. Bundling home and auto with the same carrier usually knocks 15 to 20
+percent off the home premium, sometimes more. It might actually be cheaper than
+keeping State Farm for the car.
+
+SARAH: Oh, I didn't realize that. Yeah, sure, if you can do that that'd be great.
+
+MARCUS: Absolutely. I'll have quotes for you within about 20 minutes. And hey -
+one more thing while I have you. Have you gotten your electricity and internet set
+up for the new address yet?
+
+SARAH: Oh my gosh, no. I keep adding things to the list. I don't even know where
+to start with Texas electricity, it's so confusing.
+
+MARCUS: It is, yeah. So we work with a service called MyUtilities - they handle
+all of that for you, they compare the electricity providers for your zip code,
+find the best rate, and set everything up. It's free to use. I can have someone
+from their team call you in the next hour if that works?
+
+SARAH: Yes, please, that would be amazing. This has been really helpful, I feel
+a lot better.
+
+MARCUS: That's what we're here for. Okay, so I've got your number from caller ID -
+is 214-883-7042 the best number?
+
+SARAH: That's my cell, yeah.
+
+MARCUS: Perfect. And what's a good email for me to send the quotes to?
+
+SARAH: It's sarah.mitchell - all one word - at gmail dot com.
+
+MARCUS: Got it. Okay Sarah, I'll have insurance quotes in your inbox within 20
+minutes, and expect a call from MyUtilities within the hour. And we will get you
+all buttoned up way before the 12th.
+
+SARAH: Amazing, thank you so much Marcus. I really appreciate it.
+
+MARCUS: Of course. Talk soon.
+
+[CALL ENDS]
+
+================================================================================
+ADVISOR NOTES (post-call):
+- Property: 4817 Thornbury Dr, Plano TX 75093 | Purchase price $448,000 | Close 2026-06-12
+- Roof: replaced 2019; material TBD - ask client to check inspection report for Class 4 cert
+- Lender: Rocket Mortgage (e-delivery of dec page; flag in EZLynx)
+- Claims: none | First-time homebuyer
+- Dog: Golden Retriever (no breed restriction issue)
+- Auto: State Farm - run Safeco and Travelers bundle quotes
+- MyUtilities referral made: YES - electricity + internet, 75093 | Follow up in 90 min to confirm contact
+- Lead source: Diane Kowalski / KW Plano - log referral in HubSpot

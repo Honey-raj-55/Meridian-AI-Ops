@@ -1,0 +1,235 @@
+DALLAS UTILITY PROVIDERS - MYUTILITIES ADVISOR GUIDE
+Last updated: June 2026
+Coverage: Dallas, Collin, Denton, Tarrant, and Rockwall counties served by Oncor Electric Delivery
+This document covers Retail Electric Providers (REPs), internet providers, and natural gas providers.
+
+NOTE: Texas electricity is deregulated. Oncor owns and maintains the power lines in DFW. Oncor is NOT a choice -
+they deliver electricity regardless of which REP you select. The REP is who you pay and who you pick.
+Gas in Dallas is provided by Atmos Energy (not deregulated; no choice).
+
+================================================================================
+SECTION 1: RETAIL ELECTRIC PROVIDERS (REPS) - DFW COVERAGE
+================================================================================
+
+POWERTOCHOOSE.ORG is the official Texas PUC comparison site. However, it does NOT show all promotions,
+and the rate shown may not match what the provider quotes directly. Always cross-reference.
+
+---- TXU ENERGY ----
+Coverage: Full Oncor service territory (all of DFW)
+Market position: Largest REP in Texas; premium pricing, strong brand recognition
+Current promo (June 2026): "Free Nights" plan - electricity from 9pm to 6am free; usage other hours at 14.2 cents/kWh
+- Best for: Families home during evenings, EV owners charging overnight
+- Avoid for: Clients who work from home during day (daytime rate is high)
+Standard 12-month fixed rate: 13.8 cents/kWh (including Oncor delivery charge)
+Early termination fee: $200 flat
+MyUtilities commission: $45 per new residential signup, paid within 45 days of activation
+Setup lead time: 1-2 business days for same-address transfer; next-day for new construction after meter set
+
+---- RELIANT ENERGY (NRG subsidiary) ----
+Coverage: Full Oncor service territory
+Market position: Second-largest REP; strong customer service reputation
+Current promo (June 2026): $100 bill credit after 3 consecutive on-time payments; sign up via MyUtilities for $150 credit
+- Standard 12-month fixed rate: 13.4 cents/kWh
+- 24-month fixed rate: 14.1 cents/kWh (locks in against summer rate spikes)
+- "Reliant Secure Advantage" plan includes power outage protection fund ($250/yr value for extended outages)
+Early termination fee: $175 flat
+MyUtilities commission: $55 per new residential signup (highest REP commission for standard plans); paid monthly
+Setup lead time: 1 business day standard; same-day available for urgent closings (call Reliant direct at 866-735-4265 for same-day)
+NOTE: Reliant's customer portal is among the best in Texas for budgeting tools. Good for first-time homebuyers who want expense visibility.
+
+---- CONSTELLATION ENERGY ----
+Coverage: Full Oncor territory
+Market position: Strong in north Dallas suburbs; popular with commercial accounts that spill into residential
+Current promo (June 2026): 12-month fixed at 12.9 cents/kWh (current lowest fixed rate tracked by MyUtilities)
+- 24-month fixed: 13.5 cents/kWh
+- No hidden fees; rate is fully bundled including Oncor delivery and TDSP charges
+Early termination fee: $150 flat
+MyUtilities commission: $40 per residential signup
+Setup lead time: 2-3 business days; not recommended for closings within 48 hours
+Strong for: New construction in Frisco, McKinney, Allen, Prosper where Constellation has negotiated community rates
+
+---- GEXA ENERGY ----
+Coverage: Full Oncor territory
+Market position: Budget-focused, lower brand recognition, good rates
+Current promo (June 2026): First month free on 12-month plans; signup through MyUtilities only
+- 12-month fixed rate: 12.7 cents/kWh (competitive)
+- Variable rate plan: starts at 11.4 cents/kWh; caution - can spike significantly in peak summer months
+Early termination fee: $100 flat (lowest in market)
+MyUtilities commission: $35 per residential signup
+Setup lead time: 2 business days
+Caution: Gexa customer service receives lower satisfaction scores than TXU or Reliant. Fine for price-focused clients; brief clients on self-service portal.
+
+---- CIRRO ENERGY (Constellation subsidiary) ----
+Coverage: Full Oncor territory
+Good for solar net metering customers: Offers 9 cents/kWh buyback rate on solar generation (among highest in DFW)
+12-month fixed: 13.1 cents/kWh
+MyUtilities commission: $38 per residential signup
+Recommend for: Clients with or planning to install solar panels
+
+---- GRIDDY / OCTOPUS ENERGY (variable rate plans) ----
+Coverage: Full Oncor territory
+These are wholesale/variable rate plans. Rates track ERCOT real-time pricing.
+These are NOT recommended for MyUtilities clients without extensive explanation of risk.
+February 2021 winter storm Uri resulted in $16,000+ bills for Griddy customers. This is documented public history.
+MyUtilities policy: Do not proactively offer variable rate plans. If client specifically asks about Octopus Energy, explain the risk profile clearly and document the conversation.
+
+================================================================================
+SECTION 2: PROVIDERS BY ZIP CODE CLUSTER
+================================================================================
+
+ZIP CODES 75201-75215 (Downtown Dallas, Uptown, Deep Ellum, South Dallas)
+- Best rates available: Constellation 12.9 cents, Gexa 12.7 cents
+- Most popular with clients: TXU (brand trust) and Reliant (service reliability)
+- Average monthly bill: 1-bedroom apartment $85-$120; 3-bed home $160-$240 summer peak
+- Notes: High-rise condos in 75201-75204 often have master-metered electricity included in HOA - ALWAYS confirm before setting up a separate REP account. Wasted setup if included.
+
+ZIP CODES 75230, 75225, 75248 (Preston Hollow, North Dallas, Far North Dallas)
+- Largest homes, highest consumption
+- Best rates: Constellation or Reliant 24-month fixed (protects against rate increases)
+- Average monthly bill: 4-5 bed home $280-$420 summer peak
+- TXU Free Nights popular here (home automation, EVs common in this demographic)
+- Recommend 24-month fixed lock for clients in new $600K+ homes
+
+ZIP CODES 75034, 75035, 75093 (Frisco, Plano)
+- Fastest-growing suburb corridor; high new construction rate
+- Constellation has community rate agreements in several Frisco master-planned communities (Canals at Grand Park, Frisco Wade Park area)
+- Always check if new construction is in a community with a preferred provider agreement before defaulting to Reliant/TXU
+- Average monthly bill for new construction 2,800 sq ft: $175-$260 summer
+
+ZIP CODES 75013, 75002, 75009 (Allen, Wylie, Celina)
+- Suburban family market; moderate consumption
+- Reliant and Constellation rate competitively here
+- No notable community agreements as of Q2 2026
+- Growing EV adoption - TXU Free Nights plan is a strong fit
+
+ZIP CODES 76001-76140 (Arlington, Mansfield, Grand Prairie - Oncor territory)
+- Note: Parts of Fort Worth are served by Oncor, but parts are NOT (Benbrook, Lake Worth served by SWEPCO or others). Confirm Oncor service before quoting.
+- Reliant and TXU both strong in this area
+- Average bill slightly lower than north Dallas due to newer housing stock with better insulation
+
+ZIP CODES 75019, 75022, 75028 (Coppell, Flower Mound, Lewisville)
+- Lewisville/Flower Mound corridors: Gexa Energy has been very competitive here in 2025-2026
+- Good first-time homebuyer market; brief clients on Gexa self-service portal
+- Recommend 12-month fixed to give first-time homebuyers flexibility to switch after year one
+
+================================================================================
+SECTION 3: INTERNET PROVIDERS BY AREA
+================================================================================
+
+Note: Internet is NOT deregulated - the provider is determined by infrastructure availability at the address.
+Always verify availability at the specific address using provider availability checkers before advising.
+
+---- AT&T FIBER ----
+Coverage: Most of Dallas proper and major suburbs (Plano, Frisco, Allen, McKinney, Garland, Irving, Arlington)
+Speed tiers (June 2026):
+- 300 Mbps: $45/mo (promo 12 months, then $60/mo)
+- 500 Mbps: $55/mo (promo 12 months, then $70/mo) - RECOMMENDED for standard family
+- 1 Gig: $80/mo (promo 12 months, then $90/mo) - Recommend for remote workers, 4K streaming, heavy gaming
+- 2 Gig: $110/mo - overkill for most residential; recommend for home offices with multiple video conferencing users
+No data caps. No equipment fee if you use AT&T gateway (required).
+Contract: No annual contract required; month-to-month available.
+Installation lead time: 3-7 business days. Book early for new move-ins.
+MyUtilities commission: $75 per new AT&T Fiber residential activation (highest internet commission)
+Current promo through MyUtilities: Waived $99 installation fee (standard customers pay this; MyUtilities clients do not)
+
+---- SPECTRUM (Charter) ----
+Coverage: Broader geographic coverage than AT&T Fiber, especially older neighborhoods and areas not yet fiber-lit
+Speeds available:
+- 300 Mbps: $49.99/mo (standard; no promotional expiration on this tier)
+- 500 Mbps: $69.99/mo
+- 1 Gig: $89.99/mo
+No data caps. Equipment rental $9/mo unless client owns a compatible modem.
+Contract: No annual contract.
+Installation lead time: 2-5 business days. Generally faster than AT&T for urgent move-ins.
+MyUtilities commission: $60 per new Spectrum residential activation
+NOTE: Spectrum's consistent no-promo pricing is actually a selling point for clients who don't want surprise rate increases after 12 months.
+
+---- FRONTIER FIBER ----
+Coverage: Expanding in DFW but not as widespread as AT&T or Spectrum. Strong in Richardson, some parts of Garland, expanding into Rockwall County.
+Speeds: 500 Mbps ($39.99/mo first year, $59.99 after), 1 Gig ($49.99/mo first year, $69.99 after), 2 Gig ($79.99/mo)
+Best price-per-gig in areas where available.
+MyUtilities commission: $65 per activation
+Check availability carefully - Frontier's build-out is still in progress; block-by-block coverage.
+
+---- RISE BROADBAND (fixed wireless) ----
+Coverage: Fills gaps in rural/semi-rural Dallas County and Collin County fringe (Lavon, Nevada, Josephine, Royse City outskirts)
+Speeds: 50-200 Mbps (not fiber; fixed wireless using towers)
+Use case: Only recommend when AT&T Fiber and Spectrum are not available at the address.
+MyUtilities commission: $30 per activation
+
+---- T-MOBILE HOME INTERNET ----
+Coverage: Available in most of DFW where 5G coverage exists
+Speed: 300-600 Mbps typical; no guaranteed minimum
+No installation needed; self-setup with provided gateway device
+$50/mo flat, no contract, no data caps
+MyUtilities commission: $25 per signup
+Recommend as: Backup option while waiting for AT&T Fiber install, or for clients in new construction where address not yet lit for wired service
+
+---- GOOGLE FIBER ----
+Coverage: Limited; available in parts of Dallas proper (Lakewood, White Rock, some M Streets) as of June 2026. Expanding slowly.
+When available: Extremely competitive. 1 Gig for $70/mo, 2 Gig for $100/mo. No promo expiration - rate is permanent.
+MyUtilities commission: $55 per activation
+Always check Google Fiber availability first for address in coverage zone - it's the best value when available.
+
+================================================================================
+SECTION 4: NATURAL GAS - ATMOS ENERGY
+================================================================================
+
+Natural gas in Dallas is provided exclusively by Atmos Energy (regulated utility, no provider choice).
+MyUtilities role: Help clients set up a NEW Atmos account when moving to a new address.
+
+New Atmos account setup:
+- Phone: 888-286-6700
+- Online: atmosenergy.com/start-service
+- Lead time: 1-2 business days; same-day if called by noon
+- Deposit: $0-$200 depending on credit check. First-time Atmos customers or customers with no prior Texas utility credit history pay a $150 deposit (refundable after 12 months of on-time payment).
+- Budget billing: Atmos offers budget billing that averages annual usage into level monthly payments. Recommend this to first-time homebuyers.
+- Average Dallas residential gas bill: $30-$55/mo spring-fall; $90-$180/mo January-February peak heating months
+
+MyUtilities commission on Atmos: No direct commission from Atmos (regulated utility). Value-add for client satisfaction only. Include in every new homeowner setup as a bundled service.
+
+Atmos service notes for new construction:
+- If the home is newly built, the gas meter may not be active. The builder typically coordinates meter set with Atmos, but confirm with the client. Call Atmos new construction line: 888-286-6700 option 4.
+- Gas fireplace ignition requires gas service to be active. This trips up clients moving in during fall and winter.
+- Pool heaters and outdoor kitchens in premium north Dallas homes are gas-dependent. Confirm Atmos is active before the client's first large gathering.
+
+================================================================================
+SECTION 5: COMMISSION SUMMARY AND PAYMENT SCHEDULE
+================================================================================
+
+Provider                  | Commission     | Payment Timing
+--------------------------|----------------|----------------
+Reliant Energy            | $55/signup     | Monthly (30-day lag)
+AT&T Fiber                | $75/signup     | Monthly (45-day lag)
+TXU Energy                | $45/signup     | Monthly (30-day lag)
+Spectrum                  | $60/signup     | Monthly (30-day lag)
+Frontier Fiber            | $65/signup     | Monthly (30-day lag)
+Constellation Energy      | $40/signup     | Monthly (45-day lag)
+Gexa Energy               | $35/signup     | Monthly (30-day lag)
+Google Fiber              | $55/signup     | Monthly (45-day lag)
+Cirro Energy              | $38/signup     | Monthly (30-day lag)
+T-Mobile Home Internet    | $25/signup     | Monthly (30-day lag)
+Rise Broadband            | $30/signup     | Monthly (30-day lag)
+Atmos Energy              | $0 (no commission) | N/A
+
+Commission chargebacks: If a customer cancels within 60 days of setup, commission is reversed in the following month's statement. Track activations carefully; high cancellation rates trigger provider audits.
+
+Highest-revenue combo for a single new homeowner referral:
+Reliant ($55) + AT&T Fiber ($75) + Atmos (included free) = $130 per household
+This is the MyUtilities "full bundle" target for new homeowner C1 referrals.
+
+================================================================================
+SECTION 6: COMMON OBJECTIONS AND RESPONSES
+================================================================================
+
+"I'll just call TXU, I've always used them."
+Response: "TXU is great - good service. We can set that up for you. I do want to make sure you're getting the best rate for your new home though. TXU's current rate is 13.8 cents - Constellation is at 12.9 right now. On a 2,500 square foot home that's about $80-$100 a year difference. Want me to compare a couple options real quick? Takes two minutes and you still end up with whoever you want."
+
+"My friend said Gexa is sketchy."
+Response: "Gexa's rates are some of the best in Dallas right now and they're regulated by the Texas PUC just like TXU and Reliant. The only reason some people don't love them is the self-service customer portal takes a little getting used to. If you're comfortable handling billing online, the savings are real. If you'd prefer to call someone with a question, Reliant has better phone support."
+
+"Can't I just keep the seller's electric account and transfer it?"
+Response: "Unfortunately Texas doesn't allow that - electricity accounts in Texas can't be transferred between people. You'll need a new account in your name starting on the closing date. That's actually one of the reasons we do this call - so there's no gap in service and you don't walk into a dark house on moving day."
+
+"We're going with solar, so it doesn't matter."
+Response: "It actually matters a lot with solar - you need to pick a retail provider that offers good net metering buyback rates, or you leave money on the table with the energy you export back to the grid. Cirro Energy currently pays 9 cents per kWh buyback, which is among the highest in DFW. Want me to set you up with them so you're ready when your panels go live?"

@@ -1,0 +1,179 @@
+NEW HOMEOWNER QUOTE WORKFLOW - C1 INSURANCE GROUP
+Last updated: June 2026
+Use this workflow for every new purchase (not refinance, not renewal). Complete ALL sections before pulling quotes.
+Estimated completion time: 8-12 minutes for standard residential.
+
+================================================================================
+BEFORE YOU BEGIN
+================================================================================
+
+Confirm the client is a buyer (not a renter or refinance). If refinance, use the Existing Homeowner Review workflow instead.
+Pull up the quoting platform (EZLynx or Applied Epic) before starting the call.
+Have the MyUtilities referral card ready - utility setup question comes late in the intake (see Section 7).
+If the client was referred by a real estate agent, log the referral source in the CRM before quoting.
+
+================================================================================
+SECTION 1: PROPERTY BASICS
+================================================================================
+
+Q1. What is the full property address including zip code?
+    [Enter in EZLynx; system will auto-pull county, fire district, FEMA flood zone]
+    NOTE: If the address is not yet assigned (new construction), ask for the lot/block number and subdivision name. Use the nearest completed home on the street for initial rating; update at closing.
+
+Q2. What is the expected closing date?
+    CRITICAL: Policy effective date must match closing date exactly. Lenders will reject a policy effective the wrong day.
+    If closing date is unknown: quote with a placeholder 30 days out, flag the file for update.
+    If closing is within 48 hours: fast-track to Safeco or Travelers direct bind. Do NOT use Progressive for rush closings - their bind confirmation takes 2-4 hours and can miss title company deadlines.
+
+Q3. What is the purchase price? And do you know the square footage?
+    These two numbers together catch over-insurance and under-insurance. Run the Marshall & Swift RCV calculator in EZLynx if the purchase price is more than 20% above or below the county appraisal value. This is common with new construction and estate sales.
+
+Q4. What year was the home built?
+    Homes built before 2000: Flag for Ordinance/Law coverage discussion (see carrier guides).
+    Homes built before 1980: Ask explicitly about electrical panel type (see Q10).
+    Homes built before 1978: Ask about plumbing type (polybutylene risk - see Q11).
+
+Q5. What type of construction is it? (Brick, frame, brick-veneer, stucco, other)
+    Frame homes in Dallas generally rate 5-8% higher than brick. Stucco can be tricky - verify if it's EIFS (synthetic) or real stucco. EIFS homes are surcharge or decline at several carriers due to moisture intrusion history.
+
+================================================================================
+SECTION 2: LENDER REQUIREMENTS
+================================================================================
+
+Q6. Who is the mortgage lender, and do you have the loan number yet?
+    [Required for mortgagee clause on the dec page]
+    Common DFW lenders and their specific requirements:
+    - Chase/JPMorgan: Requires AM Best A- or better. Safeco (A), Travelers (A++), Progressive (A+) all qualify. Kemper (A-) qualifies but confirm with loan officer.
+    - Veterans United / USAA mortgage: Requires flood zone confirmation even if property is Zone X. Always provide flood zone letter.
+    - Rocket Mortgage: Will accept e-delivery of dec page. Flag in EZLynx for e-cert delivery.
+    - Local credit unions (Texell, Credit Union of Texas): Generally flexible; standard mortgagee clause is fine.
+
+Q7. Is this a conventional loan, FHA, VA, or jumbo?
+    FHA: Minimum $100K dwelling coverage required; confirm Coverage A meets this.
+    VA: No specific insurance mandate beyond standard lender requirements; just confirm AM Best rating.
+    Jumbo ($800K+ in DFW): Lender will likely require the insurer to be AM Best A+ minimum AND may require Guaranteed Replacement Cost. Steer to Travelers Premier or Safeco Premier. Do NOT place a $1.2M home on Kemper preferred for a jumbo mortgage without confirming with the loan officer.
+
+Q8. Has the lender given them a hazard insurance requirement letter or a specific coverage amount they must carry?
+    Some lenders in DFW now include coverage amount floors in the commitment letter. If yes: get the exact number and make sure Coverage A meets it before binding.
+
+================================================================================
+SECTION 3: CURRENT AND PRIOR COVERAGE
+================================================================================
+
+Q9. Do you currently have a homeowners or renters policy? Who is it with and when does it expire?
+    If yes: Get the current carrier, policy number, and expiration date.
+    - If expiring within 30 days and they own the current home: This is a normal purchase situation. Flag that the current home policy may need to stay active through closing if they're selling simultaneously.
+    - If they've never had homeowners (first-time buyer): Note this. Some carriers (Travelers) will ask if they carried renters insurance previously. Having prior renters coverage helps the insurance score.
+    - Prior non-renewal or cancellation for non-payment: Disclose to carriers. Safeco will surcharge or decline. Travelers will review case-by-case.
+    - Prior non-renewal for claims: Must disclose. Ask: "Did your prior carrier choose not to renew you, or did you choose to leave?"
+
+Q10. Have you had any homeowners insurance claims in the past 5 years?
+    If yes: Get date of loss, type of loss (wind, water, fire, liability, theft), amount paid.
+    ONE claim: Acceptable at most carriers. Travelers and Progressive are most forgiving.
+    TWO claims: Surcharge territory. Safeco may decline. Present to Travelers or Progressive first.
+    THREE+ claims: Hard to place standard market. Consider Kemper Preferred or call E&S desk.
+    Water claim over $20K in past 3 years: Flag immediately. This is the #1 reason for carrier decline in DFW right now. If client has a recent large water claim, you MUST disclose upfront and call underwriting before quoting.
+
+================================================================================
+SECTION 4: ROOF AND STRUCTURAL
+================================================================================
+
+Q11. How old is the roof, and do you know what material it is?
+    This is the single most important underwriting question for DFW homes.
+    If the client doesn't know: Ask if they have a home inspection report. The inspector always notes roof age and material.
+    If the age from the inspection report differs from the seller's disclosure: Use the inspection report and note the discrepancy in the file.
+
+    Age thresholds quick reference:
+    - Under 10 years: Quote any carrier freely
+    - 10-15 years: Safeco Standard/Premier OK; Travelers Standard/Premier OK with note
+    - 16-20 years: ACV roof settlement only at most carriers; disclose to client. Travelers Premier may still offer RCV on Class 4 shingles.
+    - 21+ years: Safeco ineligible. Travelers ineligible. Try Progressive or Kemper. If metal: call underwriting.
+
+Q12. Has the roof been replaced since any hail or storm event, and do you have documentation?
+    If yes and documented: Can push back roof age to zero for quoting purposes. Require permit or contractor invoice.
+    If yes but no documentation: Proceed with caution. Some underwriters (especially Safeco) use satellite imagery and will flag if documented age doesn't match visual condition.
+
+Q13. What material are the main water supply pipes? Do you know if the home has polybutylene plumbing?
+    How to explain polybutylene to clients: "Gray plastic pipes, common in Dallas homes built between about 1978 and 1995. It can fail without warning. Some carriers exclude plumbing damage or won't write the home if it has these pipes."
+    If poly confirmed: Travelers will write with plumbing exclusion endorsement; disclose to client. Safeco hard-declines. Progressive and Kemper will write with exclusion.
+
+Q14. What type of electrical panel does the home have? Is it a circuit breaker panel, or does it have fuses?
+    Fuse box: All standard carriers decline. Refer to E&S or suggest client budget for panel upgrade.
+    Federal Pacific Stab-Lok panel (tan/beige panel, common in Dallas 1960-1985): All carriers decline. Must be replaced. This comes up often in Lakewood, East Dallas, North Oak Cliff.
+    Zinsco/Sylvania panels (similar era): Same issue. Hard decline across the board.
+    If the client is not sure: Ask them to look at the panel in the garage or utility closet. It will say "Federal Pacific" or "Zinsco" on the door. If it just says "Square D," "Siemens," "Leviton," or "Eaton," they're fine.
+
+================================================================================
+SECTION 5: DOGS, POOLS, AND LIABILITY TRIGGERS
+================================================================================
+
+Q15. Do you have any dogs? If so, what breed and weight?
+    If the answer is a restricted breed (Pit bull, Rottweiler, Doberman, Chow, Akita, Wolf hybrid, Presa Canario, Cane Corso, Dogo Argentino):
+    - Do NOT attempt to hide or omit this from the carrier application. This is material misrepresentation.
+    - Travelers, Safeco, and Progressive all exclude restricted breed liability.
+    - Kemper has the most flexible dog policy; call underwriting for bite-history dogs.
+    - Document the breed disclosure in the client file.
+
+Q16. Does the property have a swimming pool?
+    If yes: Confirm it has a fence with a self-latching gate (Dallas ordinance requirement, also required by all carriers). Above-ground pools: Surcharge at some carriers; confirm with EZLynx rating engine.
+
+Q17. Does the property have a trampoline?
+    If yes: Safeco requires signed exclusion OR documentation of net enclosure. Travelers requires BOTH. Progressive will write with net enclosure only. Log the trampoline in the client profile.
+
+================================================================================
+SECTION 6: BUNDLE AND DISCOUNT SCREENING
+================================================================================
+
+Q18. Where is your auto insurance right now, and when does it renew?
+    This is the most valuable question for C1 revenue. A home+auto bundle adds $400-$900/yr in revenue.
+    If they're with a competitor: "We can often save you money by bringing both policies here and getting the multi-policy discount. Would you like me to run an auto quote while I have your information?"
+    If they're with Safeco/Liberty Mutual already: Lead with Safeco home to ensure bundle pricing.
+    If they're with Travelers already: Lead with Travelers home.
+    If they're with State Farm or Allstate: C1 doesn't carry those. Explain we write through Safeco, Travelers, Progressive, or Kemper and can often beat their auto rate.
+
+Q19. Do you have a security/alarm system, or are you planning to add one?
+    If yes: Ask if it's monitored through a central station. Get the monitoring company name. Many clients have DIY Ring or SimpliSafe systems - these may or may not qualify depending on the carrier (Safeco and Travelers require central station monitoring for the 5% alarm discount; Ring Protect Pro with professional monitoring DOES qualify).
+
+Q20. Is the roof Class 4 impact-resistant shingles?
+    If the client doesn't know: Check the home inspection report. It will list the shingle type if it's Class 4. Common Class 4 products in DFW: Malarkey Vista, GAF Armorshield II, CertainTeed Landmark IR, Owens Corning Duration Storm. Class 4 saves 8-12% depending on carrier.
+
+================================================================================
+SECTION 7: MYUTILITIES REFERRAL CHECK
+================================================================================
+
+Q21. Have you already set up your utilities for the new home - electricity, internet, gas?
+    This question should feel natural, not like a pitch. Frame it as part of the move-in service.
+
+    If they say NO or "I haven't gotten to that yet":
+    This is a warm MyUtilities referral. Use the following handoff language:
+    "One more thing we do for our clients is connect you with MyUtilities - they're a free concierge service that sets up your electricity, internet, and gas for the new address, compares rates, and handles the transfer. It's one less thing to worry about during closing week. Would it be okay if I connected you with them right now, or would you prefer I have someone reach out to you in the next hour?"
+
+    If they say YES, already handled:
+    Ask: "Did you set up with Oncor for electricity or did you go through a retail provider like TXU or Reliant?"
+    Note their current provider in CRM. This data is useful for MyUtilities for future rate comparisons.
+    Do not push the referral if they've already completed setup.
+
+    If they say "I'm keeping the same utilities from the previous owner":
+    Flag: Utilities don't automatically transfer in Texas. Each service requires a new account. This is a strong MyUtilities referral moment - clients often don't know they need to re-establish service.
+
+================================================================================
+SECTION 8: FINAL CONFIRMATION BEFORE QUOTING
+================================================================================
+
+Confirm the following before pulling quotes:
+[ ] Full address confirmed and entered in EZLynx
+[ ] Closing date confirmed and matches intended policy effective date
+[ ] Roof age and material confirmed
+[ ] Claims history: number, type, and dates
+[ ] Lender name and loan number (or confirmed TBD and file flagged)
+[ ] Dog breeds confirmed (or confirmed none)
+[ ] Trampoline/pool status confirmed
+[ ] Auto bundle opportunity noted
+[ ] MyUtilities referral made or declined noted in CRM
+
+Quote sequence recommendation for standard Dallas new purchase:
+1. Run Safeco first if roof under 12 years, north Dallas or Collin County ZIP, and auto bundle available
+2. Run Travelers first if home $400K+, older Dallas neighborhood, or client has one prior claim
+3. Add Progressive or Kemper as third option if first two are declined, priced out, or client wants a third comparison
+
+Total quote call target: Pull all quotes within 10 minutes of completing intake. Clients making closing decisions do not wait.

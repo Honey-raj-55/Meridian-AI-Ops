@@ -1,0 +1,156 @@
+CROSS-SELL PROTOCOL - C1 INSURANCE GROUP & MYUTILITIES
+Last updated: June 2026
+Applies to all C1 advisors and all MyUtilities concierge agents operating under the partnership agreement.
+Referral tracking: All referrals must be logged in the shared CRM (HubSpot pipeline tag: "Partner Referral").
+
+================================================================================
+OVERVIEW OF THE PARTNERSHIP
+================================================================================
+
+C1 Insurance Group and MyUtilities operate as preferred referral partners serving the Dallas-Fort Worth home buyer and homeowner market. The partnership is non-exclusive but has an SLA: all warm referrals must be contacted within 60 minutes during business hours (Mon-Sat 8am-7pm CT). Leads outside business hours are queued for next-morning callback.
+
+Revenue share: C1 receives a referral fee from MyUtilities for confirmed utility setups originating from C1 introductions. MyUtilities receives priority placement in C1 advisor scripts and CRM workflow triggers. Neither party discloses specific fee amounts to end clients (standard referral arrangement).
+
+================================================================================
+SECTION 1: MYUTILITIES → C1 INSURANCE TRIGGERS
+================================================================================
+
+MyUtilities advisors should introduce C1 Insurance Group when ANY of the following conditions are true:
+
+TRIGGER MU-1: Client is setting up utilities for a NEW property address
+The client is establishing service at a new home they just purchased or are about to close on.
+Action: Ask "Are you all set on homeowners insurance for the new place?" If they say no, are unsure, or mention they're shopping, this is a warm referral. Collect name, phone, and closing date. Do not ask for more.
+
+TRIGGER MU-2: Client mentions their insurance is expensive or they're unhappy with their carrier
+Any mention of "my insurance went up," "my carrier dropped me," "I got a non-renewal," or "I'm shopping around."
+Action: "We work closely with C1 Insurance Group here in Dallas - they're an independent agency so they shop multiple carriers. Want me to have someone give you a quick call?" Do not quote or give insurance advice yourself.
+
+TRIGGER MU-3: Client is setting up utilities at a rental property they own
+Landlord behavior signal. C1 writes landlord/dwelling fire policies (DP3).
+Action: "Do you have a separate landlord policy on that property, or is it under your regular homeowners?" If they're unsure or say no, warm referral to C1.
+
+TRIGGER MU-4: Client mentions a recent storm or roof issue while on the call
+"We just had a big hail storm hit us" or "I'm dealing with a roof claim."
+Action: Empathize first. Then: "C1 Insurance is our partner agency - they have people who specialize in storm claims and know how to work with your adjuster. Would it help to have them reach out?" This is a retention and claims-advocacy referral, not a new sale.
+
+TRIGGER MU-5: Auto-renewal reminder call results in complaint about rate increase
+Client says their electric or gas rate went up sharply and starts venting about cost of living.
+Action: "A lot of people are also seeing their home insurance go up - have you had anyone shop it recently?" If they say no: warm referral to C1.
+
+TRIGGER MU-6: Client is moving out of Texas or into Texas from another state
+Moving into Texas: Strong insurance referral - they likely need new coverage fast.
+Moving out of Texas: Note their destination state in CRM. C1 may have carrier relationships in that state (Travelers and Progressive write nationally).
+
+================================================================================
+SECTION 2: C1 INSURANCE → MYUTILITIES TRIGGERS
+================================================================================
+
+C1 advisors should introduce MyUtilities when ANY of the following conditions are true:
+
+TRIGGER C1-1: New homeowner quote - utilities not yet set up (HIGHEST VOLUME)
+Covered in the new-homeowner-quote workflow (Section 7, Q21).
+This is the primary referral trigger. Approximately 60% of new purchase clients have not completed utility setup at time of insurance quote call.
+
+TRIGGER C1-2: Client mentions they're unhappy with their electricity provider
+"My TXU bill was $400 last August" or "I'm paying too much for internet."
+Action: "MyUtilities is a free service we work with - they compare electricity rates across all the retail providers in your zip code and handle the switch for you. Do you want me to connect you?" This takes 15 seconds.
+
+TRIGGER C1-3: Client closing on new construction home
+New construction in DFW (common in Frisco, McKinney, Celina, Prosper, Forney, Mansfield, Midlothian) requires utility setup from scratch - no prior accounts to transfer.
+Action: Always make the MyUtilities referral for new construction clients. They always need this.
+
+TRIGGER C1-4: Renewal review call that uncovers a move (address change)
+Client calls to update address. Moving = new utility setup needed.
+Action: "Before I update your address - have you gotten your utilities set up at the new place yet?" If no: MyUtilities referral.
+
+TRIGGER C1-5: Policy application discloses home has been vacant (between homes)
+Client has closed on new home but is finishing repairs before moving in. Utilities may be in builder's name or previous owner's name.
+Action: "Are your utilities in your name at the new address yet?" If no: referral.
+
+TRIGGER C1-6: Client mentions they just got solar panels installed
+Solar installation in Texas = net metering setup, which often requires switching retail electric providers.
+Action: "MyUtilities can help you identify which retail providers in your area offer the best buyback rate for solar net metering. Want me to have them reach out?" This shows expertise and creates goodwill.
+
+================================================================================
+SECTION 3: HANDOFF SCRIPT - C1 ADVISOR TO MYUTILITIES
+================================================================================
+
+USE THIS EXACT LANGUAGE when making a live warm handoff or setting up a callback:
+
+---- WARM TRANSFER (client on hold, calling MyUtilities directly) ----
+
+"Hi, this is [Advisor Name] at C1 Insurance Group. I have [Client First Name] on the line - they're closing on [property address] on [closing date] and haven't set up utilities yet. Can I bring them over to you now?"
+
+[Wait for MyUtilities to confirm availability. If yes, three-way connect.]
+
+On the three-way:
+"[Client Name], I have [MyUtilities Advisor Name] from MyUtilities on the line with us now. They're going to help you compare electricity and internet options for the new address - it's a free service and they do all the legwork. I'll drop off and let you two talk. You're in good hands. And you'll get your insurance documents from me by email within the hour."
+
+---- CALLBACK REFERRAL (client does not want live transfer) ----
+
+"Got it, totally understand. What I'll do is put your name and number into our partner system and someone from MyUtilities will give you a call within the hour - they'll compare electricity and internet options for your new address. It's free to use, no obligation. Is the best number to reach you [confirm phone number]?"
+
+After the call: Log in HubSpot under the client record. Tag: "MU Referral - [Date] - [Advisor Initials]". Set a 90-minute follow-up task to confirm MyUtilities contacted the client.
+
+---- IF CLIENT IS SKEPTICAL OR ASKS "WHAT IS MYUTILITIES?" ----
+
+"They're basically a concierge for setting up home utilities in Texas. Texas has a deregulated electricity market, which means you pick your provider and your rate - there are dozens of options. MyUtilities compares them for your address, finds the best rate, and handles the account setup so you don't have to spend hours on hold with a call center. It's the same thing we do for insurance - we shop multiple carriers so you don't have to call each one yourself. They do the same thing for utilities. And there's no fee to you."
+
+================================================================================
+SECTION 4: HANDOFF SCRIPT - MYUTILITIES TO C1 INSURANCE
+================================================================================
+
+USE THIS EXACT LANGUAGE when making a warm handoff or setting up a callback:
+
+---- WARM TRANSFER (client on hold, calling C1 directly) ----
+
+"Hi, this is [MU Advisor Name] at MyUtilities. I have [Client First Name] on the line - they're purchasing a home at [property address] closing [closing date] and they're still shopping for homeowners insurance. Can I bring them over?"
+
+[C1 advisor confirms.]
+
+On the three-way:
+"[Client Name], I have [C1 Advisor Name] from C1 Insurance Group with us. They're an independent agency here in Dallas - they work with Safeco, Travelers, Progressive, and Kemper, so they'll compare multiple options and find you the best rate. I'll drop off. [C1 Advisor Name], closing is [closing date] and the address is [address]. [Client Name], you're in great hands."
+
+---- CALLBACK REFERRAL ----
+
+"Before I let you go - are you all set on homeowners insurance for the new place? [Response] We work with an insurance agency called C1 Insurance Group - they're independent, so they shop multiple carriers to find the best rate for your home. Especially with DFW hail risk, it's worth having someone review your options. Would it be okay if I passed your info to them? Someone will call you within the hour."
+
+After the call: Log in MyUtilities CRM. Tag: "C1 Referral - [Date] - [MU Advisor Initials]". The referral is tracked for partner revenue share reporting.
+
+---- IF CLIENT ALREADY HAS INSURANCE ----
+
+"That's great. One thing that might be worth a quick second opinion - Dallas homeowners are seeing big rate increases on renewals, especially with hail deductibles. A lot of people find that C1 can save them 10-15% by switching carriers. Would you be open to a no-obligation comparison? Takes about 10 minutes."
+
+================================================================================
+SECTION 5: REFERRAL QUALITY STANDARDS
+================================================================================
+
+A "qualified referral" for tracking and revenue share purposes must meet ALL of the following:
+1. Client gave verbal consent to be contacted by the partner
+2. Referring advisor logged the referral in the shared CRM before end of same business day
+3. Contact information (name and mobile number) is confirmed accurate
+4. At minimum one trigger condition (Section 1 or 2 above) is documented
+
+A referral that does not convert to a completed transaction (policy bind or utility setup) within 30 days is marked "Expired" in CRM. The referring advisor is not penalized for expired referrals unless the conversion rate falls below 25% over a rolling 90-day period.
+
+Current C1 advisor conversion targets:
+- MyUtilities referrals made per month: Minimum 8 per advisor (tracked in HubSpot)
+- Referral-to-setup conversion rate: C1 advisors should see approximately 55-65% conversion on warm referrals (MyUtilities' 2025 average for C1-originated leads was 61%)
+
+Current MyUtilities advisor targets:
+- C1 Insurance referrals made per month: Minimum 12 per advisor
+- Referral-to-bind conversion rate: Approximately 35-45% (insurance consideration takes longer; closing deadline urgency helps)
+
+================================================================================
+SECTION 6: DO NOT CROSS - BOUNDARIES FOR BOTH TEAMS
+================================================================================
+
+MyUtilities advisors MUST NOT:
+- Give specific insurance coverage advice, quote premiums, or recommend one carrier over another
+- Ask clients about their claims history or use claims history to qualify or disqualify a referral
+- Guarantee that C1 can get a specific rate or beat a specific competitor's quote
+
+C1 Insurance advisors MUST NOT:
+- Quote specific electricity rates or lock clients into utility contracts
+- Recommend specific retail electricity providers beyond saying "MyUtilities can compare them for you"
+- Imply that the client must use MyUtilities as a condition of getting insurance (they are independent services)

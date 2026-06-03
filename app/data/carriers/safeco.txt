@@ -1,0 +1,153 @@
+SAFECO INSURANCE - C1 INSURANCE GROUP CARRIER GUIDE
+Last updated: June 2026
+Carrier contact: Safeco DFW Commercial Team | 1-800-332-3226 ext. 4 | underwriting turnaround 24-48 hrs
+
+================================================================================
+COVERAGE TIERS
+================================================================================
+
+ESSENTIAL TIER
+- Dwelling: Replacement Cost Value (RCV) with 20% extended replacement buffer
+- Other structures: 10% of dwelling
+- Personal property: ACV (actual cash value, NOT replacement cost)
+- Loss of use: 20% of dwelling, up to 12 months
+- Liability: $100,000
+- Medical payments: $1,000 per person
+- Deductible: 1% of dwelling value for named windstorm/hail; $1,000 all-other-peril
+- No water backup included
+- Roof: ACV schedule applies to roofs 11+ years old
+- Best for: Price-sensitive buyers, rental/investment homes, clients who will not bundle
+
+STANDARD TIER
+- Dwelling: RCV with 25% extended replacement buffer
+- Other structures: 10% of dwelling
+- Personal property: RCV (replacement cost value)
+- Loss of use: 30% of dwelling, up to 18 months
+- Liability: $300,000
+- Medical payments: $5,000 per person
+- Deductible: 1% named windstorm/hail; $1,000 all-other-peril
+- Water backup: $10,000 sublimit (included)
+- Identity theft: $15,000 (included)
+- Roof: RCV on roofs up to 15 years; ACV schedule kicks in at 16+ years
+- Service line: NOT included, available as $6/mo add-on
+- Best for: First-time homebuyers, median Dallas suburbs (Mesquite, Garland, Irving)
+
+PREMIER TIER
+- Dwelling: Guaranteed Replacement Cost (GRC) - full rebuild regardless of limit
+- Other structures: 20% of dwelling
+- Personal property: RCV, blanket $5,000 jewelry, $2,500 firearms, $2,500 silverware
+- Loss of use: 50% of dwelling, 24 months
+- Liability: $500,000 (umbrella-ready)
+- Medical payments: $10,000 per person
+- Deductible: 0.5% named windstorm/hail option available; $500 all-other-peril
+- Water backup: $25,000
+- Identity theft: $25,000
+- Equipment breakdown: $50,000 (included)
+- Ordinance/law: 50% of dwelling (CRITICAL for homes built pre-2005 in Dallas)
+- Service line: Included up to $10,000
+- Best for: Homes $400K+, custom builds, clients wanting one-stop premium coverage
+
+================================================================================
+TARGET CLIENT PROFILE - SAFECO SWEET SPOT
+================================================================================
+
+Ideal Safeco client at C1:
+- Home value: $275,000 - $700,000
+- Roof age: 0-12 years (metal or architectural shingle preferred)
+- Credit score: 680+ (Safeco uses LexisNexis insurance score; below 640 expect surcharge or declination)
+- Claims history: Zero claims in past 3 years; one paid claim in past 5 years acceptable if under $8,000
+- Occupation: Professional, educator, first responder, military (all qualify for SafeConnect discount)
+- Auto bundle: Safeco rates are 18-22% better when home+auto are bundled through Liberty Mutual/Safeco
+- Construction: Frame, brick-veneer, or full brick; NO manufactured/modular homes, no homes on piers
+- Distance to fire station: Must be within 5 road miles of responding fire station (most of DFW qualifies)
+
+Dallas-specific notes:
+- ZIP codes 75201-75215 (downtown core/East Dallas): higher theft score, expect 8-12% surcharge, redirect to Travelers
+- North Dallas/Plano/Frisco/Allen: Safeco's best DFW territory, lowest base rates, cleanest loss ratio
+- South Dallas, Oak Cliff, Pleasant Grove: Often hit FAIR plan thresholds; verify with underwriting first
+- Flood zone AE or VE: Safeco writes dwelling but EXCLUDES flood; always pair with separate NFIP or Flood Simple policy
+
+================================================================================
+DALLAS HAIL AND ROOF-AGE UNDERWRITING NOTES
+================================================================================
+
+DFW is one of the highest hail-frequency markets in the country (avg 4-6 hail events per year exceeding 1" diameter).
+Safeco has tightened roof guidelines significantly since the 2023 and 2024 storm seasons.
+
+Roof age rules (as of Q1 2026):
+- 0-10 years: Full RCV, no restriction. Quote freely.
+- 11-15 years: RCV available on Standard/Premier only. Essential forces ACV. Require roof inspection report or photos at binding if Standard/Premier.
+- 16-20 years: ACV only, regardless of tier. Mandatory roof condition photos submitted to underwriting before bind.
+- 21+ years: Safeco will NOT write new business. Existing renewals get 90-day notice to replace. Do NOT quote these.
+- TPO/flat roofs on residential: Ineligible regardless of age.
+- Metal standing-seam roofs: Preferred. Safeco will write up to 30 years age with RCV on Standard/Premier.
+- Class 4 impact-resistant shingles: Qualifies for Safeco hail-resistant discount (see discounts section). Verify with manufacturer cert.
+
+Hail surcharge zones in DFW:
+- Zone A (Lowest): Collin County (Plano, Allen, McKinney, Frisco) - base rate, no surcharge
+- Zone B: Denton County, northern Dallas County - 4% surcharge
+- Zone C: Southern Dallas County, Tarrant County, Ellis County - 9% surcharge
+- Zone D (Highest): Hood, Johnson, Parker counties - 14% surcharge; refer to underwriting
+
+================================================================================
+DISCOUNTS - SAFECO
+================================================================================
+
+Multi-policy (home + Safeco/Liberty Mutual auto): 18-22% off home premium
+New home (built within 3 years of policy effective date): 15% off
+Claims-free 5 years: 8% off
+Claims-free 10 years: 14% off
+Home alarm (monitored central station, UL-listed): 5% off; require certificate at binding
+Smart home devices (Safeco RightTrack Home or Nest/Ring integration): 3% off
+Class 4 impact-resistant roof: 12% off (must submit manufacturer certification - Malarkey Vista, GAF Armorshield, CertainTeed Landmark IR)
+Gated community: 4% off
+Age of insured 55+, retired: 5% off
+Advance quote (bound 7+ days before prior policy expiration): 4% off
+Auto-pay EFT: 2% off
+Paperless: 1% off
+Loyalty (renewal year 3+): 3% off; year 5+: 5% off
+
+Maximum stacking: Safeco caps total discount at 40% of base premium. Discounts are not additive above the cap.
+
+================================================================================
+COMMISSION RATES - C1 INSURANCE GROUP
+================================================================================
+
+New business: 15% of written premium
+Renewal (years 1-3): 12% of written premium
+Renewal (year 4+): 12% flat (Safeco does not tier up renewals)
+Bonus threshold: C1 must maintain loss ratio below 58% on Safeco book to qualify for annual profit-sharing (contingency). 2025 contingency was paid at 2.1% of prior-year earned premium.
+Chargeback: Full commission clawback if policy cancels within 90 days of effective date. Pro-rata clawback days 91-180.
+Policy fee: C1 charges $75 policy origination fee (separate from premium, retained by agency, NOT subject to Safeco commission).
+
+================================================================================
+WHAT TO AVOID - SAFECO
+================================================================================
+
+Do NOT submit to Safeco if any of the following apply:
+- Roof age 21+ years (any material)
+- More than 2 paid claims in past 5 years
+- Any single claim exceeding $30,000 in past 5 years
+- Dog breed exclusion list: Pit bull, Rottweiler, Doberman, Chow, Akita, Wolf hybrid (Safeco will flat-out decline or exclude liability)
+- Trampoline on property without a net enclosure (Safeco requires signed trampoline exclusion or net cert)
+- Swimming pool with no fence (must meet Dallas ordinance: 48" fence with self-latching gate)
+- Short-term rental (Airbnb/VRBO) activity - Safeco EXCLUDES business pursuits; use Travelers or add CBIZ endorsement
+- Home-based business with customer foot traffic
+- Homes with knob-and-tube wiring or fuse box (not circuit breaker) - automatic decline
+- Homes with polybutylene plumbing (identifiable by gray plastic pipes, common in Dallas homes built 1978-1995)
+- Unrepaired prior damage visible in photos (Safeco uses aerial imagery - EagleView or Verisk - on every new submission)
+
+================================================================================
+COMPETITIVE POSITIONING
+================================================================================
+
+Safeco wins against Travelers when:
+- Client wants one carrier for home + auto (Safeco/Liberty Mutual bundle is tightest integration)
+- Home is newer construction in north Dallas suburbs (Safeco's north DFW rates are 5-10% below Travelers)
+- Client qualifies for Class 4 roof discount (Travelers discount is smaller at 8% vs Safeco's 12%)
+
+Safeco loses to Travelers when:
+- Home is high-value ($800K+) - Travelers has better GRC terms above $700K
+- Client is in inner Dallas ZIP codes with elevated theft/liability scores
+- Prior carrier non-renewal for claims (Travelers is more forgiving with one major claim)
+- Client needs umbrella over $1M (direct Travelers umbrella is cleaner; Safeco requires separate Liberty Mutual umbrella policy)

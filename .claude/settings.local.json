@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(/Users/honeyraj/meridian-ai-ops/venv/bin/pip list *)",
+      "Bash(venv/bin/python *)",
+      "Bash(venv/bin/pip list *)",
+      "Bash(venv/bin/streamlit run *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8501/healthz)",
+      "Bash(pkill -f \"streamlit run ui.py\")",
+      "Bash(sed -n '640,665p' ui.py)",
+      "Bash(curl -s -o /dev/null -w \"healthz: %{http_code}\\\\n\" http://localhost:8501/healthz)",
+      "Read(//tmp/**)",
+      "Bash(curl -s -o /dev/null -w '%{http_code}' http://localhost:8501/healthz)",
+      "Bash(echo \"HTTP $\\(curl -s -o /dev/null -w '%{http_code}' http://localhost:8501/healthz\\)\")",
+      "Bash(rm -rf agent-workspace-inspect)",
+      "Bash(mkdir agent-workspace-inspect *)",
+      "Bash(unzip -o /Users/honeyraj/Downloads/agent-workspace.zip -d /tmp/agent-workspace-inspect)",
+      "Bash(pkill -f \"streamlit run\")",
+      "Bash(mkdir -p app commands hooks)",
+      "Bash(mv brain.py call_intelligence.py ingest.py ui.py app/)",
+      "Bash(mv data *)",
+      "Bash(mv audit.db app/)",
+      "Bash(app/venv/bin/streamlit run *)",
+      "Bash(pkill -f streamlit)",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}\\\\n\" http://localhost:8501/healthz)",
+      "Bash(venv/bin/streamlit --version)"
+    ]
+  }
+}
